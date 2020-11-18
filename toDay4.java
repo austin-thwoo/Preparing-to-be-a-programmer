@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class toDay4 {
 	public static void main(String[] args) {
 		
-
-		Scanner scanner=new Scanner(System.in);
-		
-		String x = scanner.next();
-		System.out.printf("%s", x);
+		Scanner sc = new Scanner(System.in);
+		String X = sc.nextLine();
+		String[] arr= X.split("\\."); 
+		System.out.printf("%s\n%s",arr[0], arr[1]);
 		
 		
 	}
