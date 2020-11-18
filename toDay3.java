@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class toDay3 {
 	public static void main(String[] args) {
 
-		Scanner scanner= new Scanner(System.in);
 		
-		int i= scanner.nextInt();
+	Scanner sc = new Scanner(System.in);
+		String X = sc.nextLine();
 		
-		System.out.printf("%d %d %d", i, i, i);
+		System.out.printf("%s",X);
 	
 	}
 }
