@@ -4,12 +4,16 @@ import java.util.Scanner;
 
 public class toDay1 {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		String str=sc.next();
-		String[] sarr= str.split("-");
-		int X = Integer.parseInt(sarr[0]);
-		int Y = Integer.parseInt(sarr[1]);
-		System.out.printf("%06d%d",X,Y);
+		String[] arr = str.split("");
+				
+
+			System.out.println("[" + Integer.parseInt(arr[0])*10000+"]");
+			System.out.println("[" + Integer.parseInt(arr[1])*1000+"]");
+			System.out.println("[" + Integer.parseInt(arr[2])*100+"]");
+			System.out.println("[" + Integer.parseInt(arr[3])*10+"]");
+			System.out.println("[" + Integer.parseInt(arr[4])*1+"]");
 		
 	}
 	
