@@ -6,8 +6,8 @@ public class toDay5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		double str = sc.nextDouble();
-				
-		System.out.printf("%.11f",str);
+		String str = sc.next();
+		int A = Integer.parseInt(str, 8); 		
+		System.out.print(A);
 	}
 }
