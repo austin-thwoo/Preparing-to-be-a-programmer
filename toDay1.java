@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class toDay1 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		  Scanner sc = new Scanner(System.in);
 
-		long str = sc.nextLong();
-				
-		System.out.printf("%d",str);
+		   long str = sc.nextLong();
+		   long str2 = sc.nextLong();		
+
+		   System.out.println(str + str2);
 		
 	}
 	
