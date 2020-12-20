@@ -8,6 +8,7 @@ public class toDay2 {
 
 		long str = sc.nextLong();
 				
-		System.out.printf("%o",str);
+		System.out.println( str * -1);	
+		 
 	}
 }
