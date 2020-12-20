@@ -6,9 +6,11 @@ public class toDay4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		long str = sc.nextLong();
-				
-		System.out.print(str);
+		String str = sc.nextLine();
+		String[] arr=str.split(" ");
+		int A =Integer.parseInt(arr[0]);
+		int B =Integer.parseInt(arr[1]);
+			System.out.print(A % B);
 		}
 	}
 
