@@ -8,16 +8,17 @@ public class toDay1 {
 
 		int str = sc.nextInt();
 		int str2 = sc.nextInt();
-		int str3 = sc.nextInt();
+		//int str3 = sc.nextInt();
 
 
 
-			System.out.println(str + str2 + str3);
-			float A= str;
-			float B= str2;
-			float C= str3;
-			float X =str + str2 + str3;
-			System.out.printf("%.1f", X/3);
+//			System.out.println(str + str2 + str3);
+			int A= str;
+			int B= str2;
+//			float C= str3;
+//			float X =str + str2 + str3;
+			
+			System.out.print(A<<B);
 		
 	}
 	
