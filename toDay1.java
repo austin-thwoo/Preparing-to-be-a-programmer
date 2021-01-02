@@ -1,4 +1,4 @@
-package Main.dayByday1;
+package Main.dayByDay1;
 
 import java.util.Scanner;
 
@@ -17,11 +17,9 @@ public class toDay1 {
 			int B= str2;
 //			float C= str3;
 //			float X =str + str2 + str3;
-			
-			System.out.print(A<<B);
-		
+			if (A>B) {System.out.println(1);
+				
+			}else {System.out.println(0);}
+	
 	}
-	
-		
-	
-}
+	}
