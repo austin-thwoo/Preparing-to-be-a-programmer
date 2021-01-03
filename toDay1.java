@@ -17,7 +17,7 @@ public class toDay1 {
 			int B= str2;
 //			float C= str3;
 //			float X =str + str2 + str3;
-			if (A>B) {System.out.println(1);
+			if (A==B) {System.out.println(1);
 				
 			}else {System.out.println(0);}
 	
